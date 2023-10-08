@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <main x-data="{title: 'Welcome to Alpine Components'}">
+                <h1 x-text="title"></h1>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
